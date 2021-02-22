@@ -1,0 +1,31 @@
+body {
+    background-color: #eee;
+}
+
+a {
+    color :hotpink;
+    background-color: #f00;
+    border: solid 2px  #d00;
+    padding: 15px; 
+    margin: 15px;
+    border-radius: 4px;
+}
+
+a:link {
+    color:pink; /* Le damos color al link cuando no esta visitado  */
+    text-decoration: none;
+}
+
+a:visited {
+    color: white; /* Le damos color al link cuando visitado  */    
+}
+
+a:hover {
+    color: white; /* Le damos color al link cuando pasamos el mouse por encima  */
+    /* text-decoration: underline; --> Coloca una subrayado */
+    background-color: #d00;            
+}
+
+a:active {
+    color: black; /* Le damos color al link cuando le damos click  */
+}

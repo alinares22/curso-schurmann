@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Pagina</title>
+</head>
+<body>
+    <img src="http://placekitten.com/300/300" alt="">
+    <a rel="stylesheet" href="https://www.google.com"> Ir a Google </a>
+   
+</body>
+</html>

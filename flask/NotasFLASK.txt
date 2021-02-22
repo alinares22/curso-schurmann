@@ -1,0 +1,15 @@
+Notas de Comando para ejecuta flash
+
+- python3 -m venv venv --> Crea la carpeta VENV que nos permite ejecutar flash
+
+- . venv/bin/activate --> Habilita lo ambientes virtuales en la pc
+
+-pip3 install Flask -->  para instalar flask
+
+PARA EJCUTAR EL SERVIDOR VIRTUAL DE FLASK 
+
+1. EXPORTAMOS EL ARCHIVO CON EL COMANDO.... export FLASK_APP=(nombredelarchivo)
+2. flask run
+
+ACTIVAR MODO DESARROLLADOR EN FLASK
+export FLASK_ENV=development

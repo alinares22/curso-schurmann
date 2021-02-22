@@ -1,0 +1,41 @@
+body {
+    background-color: #eee;
+}
+
+.caja {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 2px;
+    border-top: solid 0px;
+}
+
+.contenido {
+    padding: 10px;
+}
+
+.header {
+    padding: 10px;
+    border-bottom: solid 1px #eee;
+}
+
+
+.footer {
+    padding: 10px;
+    border-top: solid 1px #eee;
+}
+
+.Aceptar {
+    background-color: #0090ff;
+    border: 0px;
+    padding: 5px;
+    color: white;
+}
+
+.Cancelar {
+    background-color:#9b9b9b;
+    border: 0px;
+    padding: 5px;
+    color: white;
+}

@@ -1,0 +1,13 @@
+body {
+    background-color: #eee;
+}
+
+.fondo {
+    /* background-image: linear-gradient( to left, skyblue, green); Indicamos que el color de fondo es un gradeinte y lo pinta de derecha a izquierda */
+    /* background-image: linear-gradient(-45deg, skyblue,white, green); Indicamos que el color de fonde es un gradeinte  en grados */
+    background-image: repeating-linear-gradient(0deg, rgba(255,0,0,0.5) 10%, tomato 20%);
+}
+
+.sombras {
+    
+}

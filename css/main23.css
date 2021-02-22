@@ -1,0 +1,30 @@
+body {
+    background-color: #eee;
+}
+
+.flex {
+    display: flex;
+    /* flex-direction: row;  Cambia la direcion del contenido */ 
+    /* flex-wrap: wrap; Toma el contenido q no entra en la caja y lo baja a la siguiente linea */
+    flex-flow: row wrap ;
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; Se usa para q alinear lo items segun el espacio q queremos q ocupe en la caja */
+    /* align-content: space-evenly; Se usa para ubicar lo objetos en el contenedor */
+    height: 200px;
+}
+
+.red  {
+    background-color: red;
+}
+
+.primero {
+    flex: 1 120px; /* Primero le pasamos flex-grow y luego flex-basis */
+}
+.tercero {
+    flex-grow: 2;
+    align-self: stretch;
+}
+
+.segundo {
+    flex-grow: 1;
+}

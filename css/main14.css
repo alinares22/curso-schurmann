@@ -1,0 +1,15 @@
+body {
+    background-color: #eee;
+}
+
+.fondo {
+    height: 400px; /*altura de la caja de backgound donde esta nuestro texto   */
+    background: green url('https://placekitten.com/200/300') no-repeat left top scroll;
+    /* background-color: green;
+    background-image: url('https://placekitten.com/200/300');
+    background-repeat: no-repeat; /* Para q no se repita mas la imagen */
+    /* background-position: right top; /* Nos dejas cambiar la posicion de la imagen */
+    /* background-attachment: fixed; /* Nos deja tener siempre ubicada en pantalla la imagen de fondo */
+    background-size: cover; /* Le decimos a la imagen de background cuanto ocupar */
+}
+

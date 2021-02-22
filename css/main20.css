@@ -1,0 +1,25 @@
+.body {
+    background-color: #eee;
+}
+
+.grid  {
+    display: grid;
+    /* grid-template-rows: 50px 100px; SIRVE PARA DARLE ALTURA A FILAS */
+    /* grid-template-columns: 90PX 50PX 120PX;  SIRVE PARA DARLE EL ANCHO A LAS COLUMNAS  */
+    /* grid-template-rows: minmax(100px, auto);
+    grid-template-columns: minmax(auto, 50%) 1fr 3em; SIRVE PARA AJUSTA EL MINIMO Y MAX DE ESPACIO DE LA GRILLA */
+    /* grid-template-rows: repeat(4, 50px);
+    grid-template-columns: 30px repeat(3, 1fr) 15px; EL PRIMER NUMERO ES EL NUMERO DE VECES Q VA A REPETIR EL ESPACIO LE DIMOS 50PX*/
+    grid-template-rows: repeat(2, [row-inicio] 50px [row-fin]);
+    grid-template-columns: repeat(3, [col-inicio] 1fr [col-fin]);
+    grid-gap: 20px 10px; /* Sirve para espacio entre columbas y filas*/
+}
+
+.element {
+    background-color: red;
+}
+
+.header {
+    grid-column: col-inicio / col-fin 3;
+    grid-row: row-inicio / row-fin 3;
+}

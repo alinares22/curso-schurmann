@@ -1,0 +1,30 @@
+body {
+    background-color: #eee;
+}
+
+.box {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+    /* transform: rotate(20deg); --> Sirve para rotar la caja sobre su punto */
+    /* transform: translate(50px, 10px); --> Sirve para mover la caja por la pag */
+    /* transform: scale(0.9, 0.9); --> Sube la escale del contenido de nuestras caja*/
+    /* transform: skew(-5deg);  */
+    /* transform: rotateZ(20deg); ---> Aqui rotamos en 3d (X,Y,Z) */
+    transition: 0.3s;
+    transition-delay: 0.3s; /* Aqui le decimos q se retrase la accion del transition, La de arriba y esta se puede escribir en la misma linea
+    ej: transition: 0.3s, 0.5s*/
+} 
+
+/* .box:hover { --- AQUI HICIMOS Q CUANDO PASARAMOS EL MOUSE SOBRE LA CAJA CRECIERA UN PROCENTAJE
+    transform: scale(1.05, 1.05);
+} */
+
+.box:hover { 
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.1);
+}

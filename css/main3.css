@@ -1,0 +1,22 @@
+body {
+    background-color: #eee;
+}
+
+p {
+    font-family: "Time New Roman"; /* Da el estilo de letras del texto */
+    font-weight: 100 ;
+    font-style: italic; /* Da estilo a las letras del texto */
+    font-size: 1.5em; /* Da tamaño a las palabras */
+    color: #222fff; /* agrega color a la letra  */
+    text-align: left; /* alinia el texto  */
+    text-indent: 15px; /* Le damos espacio a inicio del parrafo  */
+    line-height: 1.5; /* le damos altura a la letras  */
+    word-spacing: 10px; /* Da espacio entre palabras */
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.3); /* Da sobras a las letras */
+}
+
+ /* a {
+    text-decoration: none; --> Nos permite decorar el texto de link  
+    text-transform: capitalize;--> Nos permite colocar todo el texti en mayusculas o minusculas 
+    letter-spacing: 3px; -->Da espacio entre las letras    
+}  */
